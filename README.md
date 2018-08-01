@@ -61,9 +61,9 @@ While creating the device, be sure to add a device attribute with the following 
 ### 6. Configuring the MQTT connection to Losant
 Set up the MQTT credentials on your Mongoose OS flashed device using the following command.
 ```
-mos config-set mqtt.client_id= <your Losant device id> \
-  mqtt.user= <your Losant access key > \
-  mqtt.pass= <your Losant access secret>
+mos config-set mqtt.client_id=<your Losant device id> \
+  mqtt.user=<your Losant access key > \
+  mqtt.pass=<your Losant access secret>
 ```  
 The **Device ID** can be obtained on Losant. 
 The **Access Key** and **Access Secret** can be obtained on Losant. If you don't already have one at your disposal, you may generate one by following the official instructions stated in the [Losant Docs](https://docs.losant.com/applications/access-keys/).
